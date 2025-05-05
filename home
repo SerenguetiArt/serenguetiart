@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serengueti Art</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      color: #fff;
+      background-color: #111;
+      overflow-x: hidden;
+    }
+    .slide {
+      min-height: 100vh;
+      padding: 4rem 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background-size: cover;
+      background-position: center;
+    }
+    h1, h2 {
+      margin-bottom: 1rem;
+    }
+    p {
+      max-width: 600px;
+      margin-bottom: 1.5rem;
+    }
+    .btn {
+      padding: 1rem 2rem;
+      background: #fca311;
+      color: #000;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    .slide-1 {
+      background-image: url('[IMAGEN_PORTADA]');
+    }
+    .slide-3 img, .slide-4 img {
+      max-width: 90%;
+      margin: 1rem auto;
+      border-radius: 12px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+    .gallery img {
+      max-width: 200px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="slide slide-1">
+    <h1>Tu historia, tu familia, tu lugar… en tu propia fachada.</h1>
+    <p>Arte personalizado en cajas de luz, buzones, murales y láminas.</p>
+    <a href="[LINK_CONTACTO]" class="btn">Encarga el tuyo</a>
+  </section>
+
+  <section class="slide slide-2" style="background-color: #222;">
+    <h2>¿Qué es Serengueti Art?</h2>
+    <p>Pinto escenas únicas con siluetas personalizadas: familias, mascotas, seres queridos o lugares especiales. Cada obra es irrepetible, pintada a mano en tu propia caja de luz, buzón o en lámina para enmarcar.</p>
+    <p>Trabajo en [TU LOCALIDAD] y alrededores, o por encargo a distancia.</p>
+  </section>
+
+  <section class="slide slide-3" style="background-color: #1a1a1a;">
+    <h2>Emoción que permanece</h2>
+    <p>“Aquí está mi padre, mi perro y yo, viendo nuestro pueblo desde lo alto...” Cada diseño guarda un recuerdo. Cada silueta tiene alma.</p>
+    <img src="[FOTO_DE_OBRA]" alt="Obra de ejemplo">
+    <a href="[INSTAGRAM]" class="btn">Ver más ejemplos</a>
+  </section>
+
+  <section class="slide slide-4" style="background-color: #333;">
+    <h2>¿Qué puedes pedirme?</h2>
+    <div class="gallery">
+      <img src="[EJEMPLO1]" alt="Ejemplo 1">
+      <img src="[EJEMPLO2]" alt="Ejemplo 2">
+      <img src="[EJEMPLO3]" alt="Ejemplo 3">
+    </div>
+    <p>Familias, mascotas, recuerdos o paisajes. Tú imaginas, yo lo pinto.</p>
+  </section>
+
+  <section class="slide slide-5" style="background-color: #222;">
+    <h2>Cómo encargar el tuyo</h2>
+    <p>1. Escríbeme por WhatsApp o Instagram<br>
+       2. Cuéntame tu idea o mándame una foto<br>
+       3. Yo diseño, pinto y te aviso cuando esté listo</p>
+    <p>Tiempos, precios y entrega según cada obra.</p>
+    <a href="[LINK_CONTACTO]" class="btn">Haz tu encargo</a>
+  </section>
+
+  <section class="slide slide-6" style="background-color: #111;">
+    <h2>Contacto</h2>
+    <p>📍 Zona: [LOCALIDAD]<br>
+       📩 WhatsApp: [NÚMERO]<br>
+       📸 Instagram: @[USUARIO_INSTAGRAM]<br>
+       💌 Correo: [EMAIL]</p>
+    <a href="[LINK_CONTACTO]" class="btn">¡Hablemos!</a>
+  </section>
+
+</body>
+</html>
